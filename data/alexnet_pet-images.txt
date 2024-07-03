@@ -319,20 +319,12 @@ Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  80.0
 
 
 *** Results Summary for CNN Model Architecture ALEXNET ***
-N Images            :  40
-N Dog Images        :  30
-N Not-Dog Images    :  10
-pct_match: 75.0
-pct_correct_dogs: 100.0
-pct_correct_breed: 80.0
-pct_correct_notdogs: 100.0
-
-INCORRECT Dog Breed Assignment:
-Real:                     beagle   Classifier:               english foxhound
-Real:                     beagle   Classifier:  walker hound, walker foxhound
-Real:             boston terrier   Classifier:                        basenji
-Real:           golden retriever   Classifier:                tibetan mastiff
-Real:           golden retriever   Classifier:           afghan hound, afghan
-Real:             great pyrenees   Classifier:                         kuvasz
+# Total Images      :  40
+# Dog Images        :  30
+# Not-Dog Images    :  10
+% Match Label: 75.0
+% Dogs Correct: 100.0
+% Breed Correct: 80.0
+% Not-Dogs Correct: 100.0
 
 ** Total Elapsed Runtime: 0:0:1
